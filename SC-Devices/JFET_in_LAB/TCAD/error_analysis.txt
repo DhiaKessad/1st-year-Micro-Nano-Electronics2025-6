@@ -1,0 +1,9 @@
+TCAD vs Experimental Comparison Analysis:
+Vgs = 0V: TCAD Sat I = 2.378 mA | Theory Sat I = 2.333 mA (Error: 1.9%)
+Vgs = -0.5V: TCAD Sat I = 1.146 mA | Theory Sat I = 1.161 mA (Error: 1.2%)
+Vgs = -1.0V: TCAD Sat I = 0.396 mA | Theory Sat I = 0.389 mA (Error: 1.8%)
+Vgs = -1.5V: TCAD Sat I = 0.048 mA | Theory Sat I = 0.027 mA (Error: 72.9%)
+Vgs = -2.0V: TCAD Sat I = 0.000 mA | Theory Sat I = 0.000 mA (Error: 0.0%)
+
+Overall Root Mean Square Error (RMSE) across all points: 0.116 mA
+RMSE relative to I_DSS (2.0mA): 5.8%
